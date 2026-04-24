@@ -50,7 +50,7 @@ Both datasets share identical modeling pipelines, feature compositions, and outp
 - **TPC2data: Dual-Trajectory Graph Dataset (Robustness Evaluation)**
 
 ### 2. Dataset Variants and Usage
-
+All data and results will be made public on Google Drive after the manuscript review is completed. Link: https://drive.google.com/drive/folders/1QZf8kFaHiBTEUCk9rKtZ4JqtUJS_DDvH?usp=sharing
 #### TPC1data (Baseline Evaluation)
 - **Single-trajectory graph construction**: each sample consists of **one** vessel trajectory segment.
 - Primarily used to validate the baseline performance of the proposed method in **single-trajectory scenarios**, such as clustering accuracy and representation quality.
