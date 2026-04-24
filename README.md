@@ -100,15 +100,23 @@ In this repository, the datasets are placed under:
 
 ## Environment
 
-Project environment path:
+The project dependencies are provided in [`requirements.txt`](requirements.txt).
 
-- /home/panjiale/miniconda3/envs/env4tc
+Recommended setup:
 
-Activate this environment before running training or evaluation:
+```bash
+conda create -n env4tc python=3.8 -y
+conda activate env4tc
+pip install -r requirements.txt
+```
+
+If you are using the original server environment, activate it with:
 
 ```bash
 source /home/panjiale/miniconda3/bin/activate /home/panjiale/miniconda3/envs/env4tc
 ```
+
+> Note: If your PyTorch / PyTorch Geometric packages require a specific CUDA version, please install the matching versions according to your server configuration before running the code.
 
 ---
 
@@ -172,4 +180,4 @@ The `eval/` folder provides helper scripts to:
 
 ## License
 
-Please add your preferred license before publishing to GitHub.
+This project is licensed under the MIT License. See the [`LICENSE`](LICENSE) file for details.
