@@ -42,6 +42,8 @@ PointL-VTC/
 
 ## AIS-TPC Graph Dataset
 
+All data and results will be made public on Google Drive after the manuscript review is completed. Link: https://drive.google.com/drive/folders/1QZf8kFaHiBTEUCk9rKtZ4JqtUJS_DDvH?usp=sharing
+
 ### 1. Dataset Description
 Based on AIS vessel trajectory data, two training datasets are constructed for **GNN trajectory-point clustering**: **TPC1data** and **TPC2data**.  
 Both datasets share identical modeling pipelines, feature compositions, and output formats. The primary difference lies in the number of trajectories included in each graph, which is designed to evaluate the **robustness** and **generalization capability** of the proposed method under varying trajectory complexity.
@@ -50,7 +52,7 @@ Both datasets share identical modeling pipelines, feature compositions, and outp
 - **TPC2data: Dual-Trajectory Graph Dataset (Robustness Evaluation)**
 
 ### 2. Dataset Variants and Usage
-All data and results will be made public on Google Drive after the manuscript review is completed. Link: https://drive.google.com/drive/folders/1QZf8kFaHiBTEUCk9rKtZ4JqtUJS_DDvH?usp=sharing
+
 #### TPC1data (Baseline Evaluation)
 - **Single-trajectory graph construction**: each sample consists of **one** vessel trajectory segment.
 - Primarily used to validate the baseline performance of the proposed method in **single-trajectory scenarios**, such as clustering accuracy and representation quality.
