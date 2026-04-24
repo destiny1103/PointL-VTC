@@ -105,20 +105,10 @@ The project dependencies are provided in [`requirements.txt`](requirements.txt).
 Recommended setup:
 
 ```bash
-conda create -n env4tc python=3.8 -y
+conda create -n env4tc python=3.10.19 -y
 conda activate env4tc
 pip install -r requirements.txt
 ```
-
-If you are using the original server environment, activate it with:
-
-```bash
-source /home/panjiale/miniconda3/bin/activate /home/panjiale/miniconda3/envs/env4tc
-```
-
-> Note: If your PyTorch / PyTorch Geometric packages require a specific CUDA version, please install the matching versions according to your server configuration before running the code.
-
----
 
 ## Quick Start
 
